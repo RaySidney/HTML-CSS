@@ -189,9 +189,7 @@ footer > p > i > strong{
 .lista{
     columns: 1;
 }
+nav{
+    font-size: 0.5em;
 }
-@media screen and (max-width: 500px){
-    nav > a{
-        font-size: small;
-    }
 }
