@@ -25,7 +25,7 @@ header{
     margin: auto;
     font-family: sans-serif;
     color: white;
-    background-image: linear-gradient(var(--cor02), var(--cor03));
+    background-image: linear-gradient(var(--cor02), var(--cor04));
     text-align: center;
     box-shadow: 0px 0px 10px 0px var(--cor04);
 }
@@ -45,6 +45,7 @@ header > nav{
     padding: 16px;
 }
 nav > a{
+    transition-duration: 0.5s;
     text-decoration: none;
     font-weight: bold;
     color: white;
