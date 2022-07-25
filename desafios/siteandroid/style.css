@@ -137,6 +137,14 @@ li::before{
 .ub{
     background-color: white;
 }
+div.qsbm > p > a{
+        text-decoration: none;
+        color: var(--cor03);
+    }
+    
+div.qsbm > p > a::after{
+        content:'🔗';
+}
 .qsbm{
     background-color: var(--cor01);
     color: black;
