@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;500;600;700&display=swap');
+
+/* 
+    ID = # 
+    CLASS = .
+*/
+
+body{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-weight: 500;
+    background-color: #4F0059;
+}
+#principal{
+    background-color: #76008888;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+h1{
+    color: #9CF246;
+}
+h2{
+    color: #63A61F;
+}
+p{
+    color: white;
+}
