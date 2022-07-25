@@ -189,4 +189,7 @@ footer > p > i > strong{
 .lista{
     columns: 1;
 }
+nav{
+    font-size: 0.5em;
+}
 }
