@@ -45,7 +45,7 @@ header a, footer a{
     color: white;
     font-weight: bold;
 }
-header a:hover, footer a:hover{
+header a:hover, footer a:hover, section.links a:hover{
     text-decoration: underline;
     color: white;
 }
@@ -81,6 +81,27 @@ section#img1{
 section#img2{
     background-image: url(imagens/background002.jpg);
 }
+section.links{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px green;
+    
+}
+section.links a, ul{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style-position: inside;
+    list-style-type: none;
+   
+}
+section.links a::before{
+    content: 'Veja aqui: ';
+}
 footer{
     font-family: var(--fonte1);
     background-color: black;
@@ -88,4 +109,10 @@ footer{
     font-weight: normal;
     padding: 10px;
     text-align: center;
+}
+hr{
+    border: 2px solid black;
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
