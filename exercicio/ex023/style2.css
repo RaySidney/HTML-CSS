@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+}
+table, th, tr, td{
+    background-color: rgb(226, 226, 226);
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+td.estado{
+    text-align: justify;
+    color: royalblue;
+    
+}
+th{
+    font-weight: bold;
+    background-color: darkgrey;
+}
+th.estado{
+    text-align: justify;
+}
+table{
+    margin: 10px auto 10px auto;
+    
+}
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 20px black;
+}
