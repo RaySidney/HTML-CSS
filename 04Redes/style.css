@@ -12,6 +12,7 @@ body{
     background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
 }
+
 main{
     position: relative;
     height: 100vh;
@@ -22,12 +23,15 @@ section#telefone{
     left: 50%;
 
     transform: translate(-50%, -50%);
-    width: 311px;
-    height: 627px;
+    width: 24vw;
+    height: 100vh;
     background: url(imagens/frame-iphone.png)no-repeat;
    
 }
-
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 #cont{
     transform: translate(8%, 16%);
     width: 268px;
