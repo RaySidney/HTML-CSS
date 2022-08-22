@@ -15,16 +15,32 @@
         <body>
             <h1>Meu Primeiro Formulário</h1>
             <div class="form">
-                <form action="form.php" autocomplete="off">
+                <form action="form.php" autocomplete="off" method="post" enctype="application/x-www-form-urlencoded">
                     <p>
                         <label for="inome">Nome:</label>
-                        <input type="text" name="nome" id="inome">
+                        <input type="text" name="nome" id="inome" required minlength="3" max="15" size="20">
                     </p>
                     <p>
                         <label for="isobrenome">Sobrenome:</label>
-                        <input type="text" name="sobrenome" id="isobrenome">
+                        <input type="text" name="sobrenome" id="isobrenome" required size="14">
                     </p>
-                    <p><input type="submit" value="Enviar"></p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </form>
+            </div>
+<br>
+            <div class="senha">
+                <form action="form.php" autocomplete="on" method="post" enctype="application/x-www-form-urlencoded" target="_blank">
+                        <p>
+                            <label for="inome">Nome:</label>
+                            <input type="text" name="nome" id="inome" required minlength="3" max="15" size="20" autocomplete="username">
+                        </p>
+                        <p>
+                            <label for="isenha">Senha:</label>
+                            <input type="password" name="senha" id="isenha" required minlength="8" size="19" autocomplete="current-password">
+                        </p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
                 </form>
             </div>
         </body>
