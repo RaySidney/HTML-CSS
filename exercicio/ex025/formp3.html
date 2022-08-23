@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form action="form.php" autocomplete="on">
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+
+        <input type="checkbox" name="bas" id="ibas"><label for="ibas"> Basquete</label><br>
+        
+        <input type="checkbox" name="fut" id="ifut"><label for="ifut"> Futebol</label><br>
+
+        <input type="checkbox" name="nat" id="inat"><label for="inat"> Natação</label><br>
+
+        <input type="checkbox" name="ten" id="iten"><label for="iten"> Tênis</label><br>
+
+        <input type="checkbox" name="cic" id="icic"><label for="icic"> Ciclismo</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="Sexo" id="imas" checked value="M"><label for="imas">Masculino</label>
+        <input type="radio" name="Sexo" id="ifem" value="F"><label for="ifem">Feminino</label>
+    </fieldset>
+        <input type="submit">
+        <input type="reset" value="Limpar Seleção">
+    </form>
+</body>
+</html>

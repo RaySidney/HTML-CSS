@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <form action="form.php" method="post">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+        <p>
+            <label for="inivel">Nivel de satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10" value="10">
+        </p>
+        <p>
+            <label for="iest"></label>
+            <select name="Estados" id="iest">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Grupo 1">
+                    <option value="SP">São Paulo</option>
+                    <option value="BA">Bahia</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+    
+                <optgroup label="Grupo 2">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="AM">Amazonas</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
