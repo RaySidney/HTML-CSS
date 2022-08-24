@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Aparelho Deitado */
+
+body{
+    color: aliceblue;
+    background-image: url(/exercicio/ex026-mediaquerry/mq-002/imagens/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+h1{
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px black;
+}

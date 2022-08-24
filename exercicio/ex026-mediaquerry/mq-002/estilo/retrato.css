@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Aparelho em Pé*/
+
+body{
+    color: black;
+    background-image:url(../imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+h1{
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px black;
+}
