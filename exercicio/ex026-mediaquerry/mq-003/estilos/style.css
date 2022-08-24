@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+   /* Gerais */
+   *{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    color: white;
+}
+h1{
+    padding: 10px;
+    text-shadow: 2px, 2px, 0px #0f1a6b;
+}
+
+@media screen and (orientation: portrait){
+    body{
+        color: black;
+        background-image:url(../imagens/cev-portrait.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    
+}
+@media screen and (orientation: landscape){
+    body{
+        color: aliceblue;
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}  
