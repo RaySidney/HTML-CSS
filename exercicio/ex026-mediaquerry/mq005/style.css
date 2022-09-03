@@ -144,7 +144,7 @@ div.galeria{
         background-color: red;
         animation-name: example;
         animation-duration: 4s;
-        transform: translate(-5%, -5%);
+        transform: translate(-3%, -3%);
     }
     li#direita{
         transform: translate(760%, 0%);
